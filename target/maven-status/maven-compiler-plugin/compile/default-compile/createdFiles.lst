@@ -1,5 +1,9 @@
 hoon\todoapi\controllers\ToDoController.class
 hoon\todoapi\App.class
 hoon\todoapi\data\ToDoDao.class
-hoon\todoapi\data\ToDoInMemoryDao.class
+hoon\todoapi\controllers\ToDoControllerExceptionHandler.class
+hoon\todoapi\controllers\Error.class
 hoon\todoapi\models\ToDo.class
+hoon\todoapi\data\ToDoDatabaseDao.class
+hoon\todoapi\data\ToDoDatabaseDao$ToDoMapper.class
+hoon\todoapi\data\ToDoInMemoryDao.class

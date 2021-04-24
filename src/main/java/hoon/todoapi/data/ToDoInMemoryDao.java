@@ -8,6 +8,7 @@ package hoon.todoapi.data;
 import hoon.todoapi.models.ToDo;
 import java.util.ArrayList;
 import java.util.List;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -15,6 +16,7 @@ import org.springframework.stereotype.Repository;
  * @author hoon0
  */
 @Repository
+@Profile("memory")
 public class ToDoInMemoryDao implements ToDoDao{
 
     private static final List<ToDo> todos = new ArrayList<>();
